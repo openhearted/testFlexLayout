@@ -1,0 +1,67 @@
+<!--
+ * @Descripttion: 
+ * @Author: liuy
+ * @LastEditors: liuy
+ * @Date: 2020-08-11 15:03:05
+ * @LastEditTime: 2020-08-11 17:39:48
+-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>align-content</title> 
+<style type="text/css">
+    .align-content{
+        width: 800px;
+        height: 800px;
+        background-color: rgb(233, 233, 233);
+        display: flex;
+        /* 
+        flex-start：与交叉轴的起点对齐。
+        flex-end：与交叉轴的终点对齐。
+        center：与交叉轴的中点对齐。
+        space-between：与交叉轴两端对齐，轴线之间的间隔平均分布。
+        space-around：每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍。
+        stretch（默认值）：轴线占满整个交叉轴。
+        */
+        align-content: center;
+    }
+    .align-content >div{
+        margin: 20px;
+    }
+    .align-content1{
+        width: 50px;
+        height: 50px;
+        background-color: rgb(212, 178, 178)
+    }
+    .align-content2{
+        width: 60px;
+        height: 60px;
+        background-color: rgb(171, 219, 159)
+    }
+    .align-content3{
+        width: 70px;
+        height: 70px;
+        background-color: rgb(100, 202, 202)
+    }
+    .align-content4{
+        width: 80px;
+        height: 80px;
+        background-color: rgb(229, 152, 236)
+    }
+    .align-content5{
+        width: 90px;
+        height: 90px;
+        background-color: rgb(240, 232, 130)
+    }
+</style>
+</head>
+<body>
+    <div class="align-content">
+        <div class="align-content1">1</div>
+        <div class="align-content2">2</div>
+        <div class="align-content3">3</div>
+        <div class="align-content4">4</div>
+        <div class="align-content5">5</div>
+    </div>
+</body>
+</html>

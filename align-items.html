@@ -1,0 +1,66 @@
+<!--
+ * @Descripttion: 
+ * @Author: liuy
+ * @LastEditors: liuy
+ * @Date: 2020-08-11 15:03:05
+ * @LastEditTime: 2020-08-11 17:37:27
+-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>align-items</title> 
+<style type="text/css">
+    .align-items{
+        width: 800px;
+        height: 800px;
+        background-color: rgb(233, 233, 233);
+        display: flex;
+        /* 
+        flex-start：交叉轴的起点对齐。
+        flex-end：交叉轴的终点对齐。
+        center：交叉轴的中点对齐。
+        baseline: 项目的第一行文字的基线对齐。
+        stretch（默认值）：如果项目未设置高度或设为auto，将占满整个容器的高度。
+        */
+        align-items: center;
+    }
+    .align-items >div{
+        margin: 20px;
+    }
+    .align-items1{
+        width: 50px;
+        height: 50px;
+        background-color: rgb(212, 178, 178)
+    }
+    .align-items2{
+        width: 60px;
+        height: 60px;
+        background-color: rgb(171, 219, 159)
+    }
+    .align-items3{
+        width: 70px;
+        height: 70px;
+        background-color: rgb(100, 202, 202)
+    }
+    .align-items4{
+        width: 80px;
+        height: 80px;
+        background-color: rgb(229, 152, 236)
+    }
+    .align-items5{
+        width: 90px;
+        height: 90px;
+        background-color: rgb(240, 232, 130)
+    }
+</style>
+</head>
+<body>
+    <div class="align-items">
+        <div class="align-items1">1</div>
+        <div class="align-items2">2</div>
+        <div class="align-items3">3</div>
+        <div class="align-items4">4</div>
+        <div class="align-items5">5</div>
+    </div>
+</body>
+</html>
